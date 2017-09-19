@@ -2,6 +2,7 @@
 
 PriceListItem::PriceListItem(const string &itemName, const string &code, double price, bool taxable) {
 	// TO BE COMPLETED
+	// added line
 }
 
 PriceListItem::PriceListItem() {
