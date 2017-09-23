@@ -1,16 +1,49 @@
 #include "GroceryBill.h"
 #include <iostream>
+#include <fstream>
+#include <stdexcept>
 
 using namespace std;
 
 GroceryBill::GroceryBill(const PriceList *priceList, double taxRate) {
 	// To be completed
+	price_list = *priceList;
+	tax_rate = taxRate;
 
 }
 
 
 void GroceryBill::scanItem(string scanCode, double quantity) {
 	// To be completed
+	
+if(price_List.isValid(scanCode))
+	PriceListItem newItem = price_list.getItem(scanCode);
+	
+	if(newItem.isTaxable())
+	{
+		total += (quantity * newItem.getPrice()) + ((quantity * newItem.getPrice()) * tax_Rate) / 100;
+	}
+	
+	else
+	{
+		total += (quantity * newItem.getPrice());
+	}
+	
+	price_list.isValid(scanCode);
+	PriceListItem *temp = itemList;
+	if(temp != NULL)
+	{
+		while()
+		{
+		}
+	}
+	else
+	{
+	}
+	
+}
+else 
+	
 }
 
 // Scan multiple codes and quantities from the given text file
