@@ -11,6 +11,7 @@ using namespace std;
 // Load information from a text file with the given filename.
 void PriceList::createPriceListFromDatafile(string filename) {
     ifstream myfile(filename);
+    myfile.open("pricelist.txt");
     
     if (myfile.is_open()) {
         cout << "Successfully opened file " << filename << endl;
