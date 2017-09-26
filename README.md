@@ -3,6 +3,6 @@ Project 1
 
 MUST EDIT WITH YOUR OWN NAME AND EMAIL IN THE SAME FORMAT
 
+
 Group members:
-Ada Lovelace adalovelace@csu.fullerton.edu
-Charles Babbage charlesbab@csu.fullerton.edu
+Geonhyeong Park pg0817h@csu.fullerton.edu
